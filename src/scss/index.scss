@@ -1,0 +1,13 @@
+// $body-bg: #000;
+// $body-color: red;
+@import '../../node_modules/bootstrap/scss/bootstrap';
+// @import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import './custom.scss';
+  $color: whitesmoke;
+    .test {
+      div{
+        background-color:$color ;
+        border: solid 1px #5A5A5A;
+        border-collapse: collapse;
+      }
+    }
